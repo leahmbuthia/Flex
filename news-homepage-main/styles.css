@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 30px;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+.main{
+    padding: 20px 60px 20px 40px;
+    gap: 2em;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+}
+.header>h1{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.header>.list{
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3em;
+}
+.nav{
+    display: flex;
+    gap: 3em;
+    padding-top: 10px;
+}
+
+.second>img{
+    height: 70%;
+    width: 100vh;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    height: 25% ;
+    width: 100vh;
+    gap: 2em;
+}
+.second-items{
+    /* background-color: blue; */
+    height: 180px;
+    gap: 1em;
+}
+.second-items>h2{
+    max-width: 45%;
+}
+.second-items{
+    display: flex;
+    gap: 1em;
+}
+.para{
+    color: gray;
+    width: 90%;
+    font-size: 15px;
+}
+.para>button{
+    background-color: orange;
+    width: 180px;
+    height: 40px; 
+    border-radius: 5px;   
+}
+.items{
+    display: flex;
+    gap: 1em;
+    /* flex-direction: column; */
+
+}
+.item1{
+    display: flex;
+    gap: 1em;
+   width: 40%;
+}
+.item1>img{
+    height: 200px;
+}
+.num{
+    display: flex;
+ flex-direction: column;
+ 
+}
+.num>h2{
+    color: grey;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.num>h3{
+    color: black;
+    padding-bottom: 10px;
+}
+.num>p{
+    color: grey;
+    font-size: 15px;
+
+}
+.item1>p{
+   color: gray;
+}
+.item2{
+    display: flex;
+    max-width: 100%;
+}
+.item2>img{
+    height: 200px;
+}
+.left{
+    display: felx;
+    background-color: black;
+    justify-content: flex-end;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    height: 390px;
+}
+.left>h1{
+    color: rgb(187, 130, 24);
+}
+.pa{
+    padding-top: 10px;
+}
+.pa>h2{
+    font-size: 20px;
+}
+.pa>p{
+    color: grey;
+    padding:10px
+}
+.divider{
+    display: block;
+    border-bottom: 1px solid gray; /* You can customize the color and thickness */
+    margin-bottom: 10px; 
+}
+.item3{
+    display: flex;
+    gap: 1em;
+}
+.item3>img{
+    height: 200px;
+}
